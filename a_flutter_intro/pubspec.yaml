@@ -1,0 +1,36 @@
+# 플러터 프로젝트의 이름을 식별하는데 사용된다.
+name: flutter_intro 
+# v프로젝트의 대한 간단한 설명을 남겨 무엇을 목적으로 하는지 설명을 남겨준다.
+description: "A new Flutter project."
+#패키지를 공개 여부를 설정하는 것이다.
+publish_to: 'none' 
+
+# 프로젝트의 버전을 의미하며 +1은 빌드 번호를 나타낸다.
+version: 1.0.0+1
+
+# 프로젝트가 의존하는 Dart SDK의 버전 범위를 정의하여 Dart SDK 3.4.3 이상 4.0.0 미만의 버전을 사용한다.
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+# 프로젝트가 의존하는 패키지를 정의한다.
+dependencies:
+  flutter:
+    sdk: flutter # 플러터 SDK를 의존성으로 포함한다.
+  cupertino_icons: ^1.0.6 # 아이콘 스타일을 정의한다.
+
+# 개발 중에만 필요한 의존성 패키지들을 정의한다.
+# Flutter_test : flutter에서 테스트를 작성하고 실행하는데 필요한 패키지이다.
+# flutter_lints : flutter 프로젝트의 대한 권장 린트 규칙을 제공한다.
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  # 린트란? 
+  # flutter 프로젝트에서 코드 품질을 유지하고 코딩 스타일을 일관되게 유지하기 위해서 사용하는 린트(lint) 규칙 모음이다.
+  # 린트는 코드에서 잠재적인 버그, 스타일 문제, 성능 문제 등을 자동으로 검사하고 경고해주는 도구이다.
+
+
+# flutter 프로젝트에서 Material Design을 사용할 것임을 명시한다. 
+# 이를 통해 Material Design을 기반으로 한 위젯을 사용할 수 있다.
+flutter:
+  uses-material-design: true
