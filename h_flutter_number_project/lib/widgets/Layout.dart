@@ -3,7 +3,6 @@ import 'package:provider/provider.dart';
 import 'package:h_flutter_example_project/views/AddNumberScreen.dart';
 import 'package:h_flutter_example_project/views/FavoriteNumberListScreen.dart';
 import 'package:h_flutter_example_project/views/RootScreen.dart';
-import 'package:h_flutter_example_project/controllers/ThemeProvider.dart';
 
 import 'ThemeProviderWidget.dart'; // Import ThemeProvider
 
